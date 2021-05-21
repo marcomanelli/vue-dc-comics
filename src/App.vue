@@ -59,21 +59,53 @@ export default {
 
   footer {
     .links {
-      background-color: red;
+      background-color: #0282F9;
       height: 200px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
       .link-box {
+        float: left;
         height: 200px;
         width: calc(100%/5);
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         color: white;
+        text-transform: uppercase;
         img {
-          height: 100px;
+          max-height: 80px;
+          max-width: 100px;
+          margin-right: 10px;
         }
+      }
+    }
+
+    .footer-list {
+      background-image: url(./assets/img/footer-bg.jpg);
+      height: 480px;
+      padding: 30px 0;
+      .footer-list-box {
+        float: left;
+        margin-right: 50px;
+        h3 {
+          color: white;
+          text-transform: uppercase;
+          margin: 30px 0;
+        }
+        li {
+          color: gray;
+          margin: 10px 0;
+          cursor: pointer;
+          transition: 0.1s;
+          &:hover {
+            color: white;
+          }
+        }
+      }
+      .footer-list-right {
+        float: right;
+        background-image: url(./assets/img/dc-logo-bg.png);
+        height: 600px;
+        width: 600px;
+        background-size: cover;
       }
     }
   }
