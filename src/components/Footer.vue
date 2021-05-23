@@ -89,8 +89,28 @@
             </ul>
           </div>
         </div>
-        
+
         <div class="footer-list-right"></div>
+      </div>
+    </div>
+
+    <!-- Footer-bottom -->
+    <div class="footer-bottom">
+      <div class="wrapper">
+        <div class="sign-up-button">
+          <h2>Sign-up now!</h2>
+        </div>
+
+        <div class="follow-list">
+          <ul>
+            <li><h3>Follow us</h3></li>
+            <li><img src="../assets/img/footer-facebook.png" alt="" /></li>
+            <li><img src="../assets/img/footer-twitter.png" alt="" /></li>
+            <li><img src="../assets/img/footer-youtube.png" alt="" /></li>
+            <li><img src="../assets/img/footer-pinterest.png" alt="" /></li>
+            <li><img src="../assets/img/footer-periscope.png" alt="" /></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
